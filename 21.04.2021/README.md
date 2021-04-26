@@ -13,7 +13,7 @@ Bonus: Can you do this in one pass?
 
 
 ```python
-def add_to_k(l_o_n: list, k: int):
+def add_up_to_k(l_o_n: list, k: int):
 	for l in l_o_n:
 		if k-l in l_o_n:
 			return True

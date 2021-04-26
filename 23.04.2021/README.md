@@ -2,7 +2,7 @@
 * * *
 Todays daily coding problem was asked by Google
 
-## PRODUCT ARRAY EXCEPT i
+## (DE)SERIALIZE
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
