@@ -18,7 +18,7 @@ class Clock():
         return (360 / 60) * self.minutes
 
     def angle(self) -> float:
-        return str(abs(self.angle_hh() - self.angle_mm())) + "°"
+        return abs(self.angle_hh() - self.angle_mm())
 
 
 time = "12:30"
